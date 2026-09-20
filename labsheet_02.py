@@ -1,15 +1,3 @@
-# LABSHEET 02
-# Data Preprocessing, Outlier Treatment, Scaling, Encoding & Feature Engineering
-#
-# Required libraries:
-# pip install pandas numpy matplotlib seaborn scikit-learn category_encoders
-#
-# Dataset CSV file:
-# labsheet_02.csv
-#
-# This program contains all 35 practical tasks.
-# A sample labsheet_02.csv is also created automatically if it does not exist.
-
 import os
 import numpy as np
 import pandas as pd
@@ -786,7 +774,3 @@ print(final_df.isnull().sum())
 print(
     f"\nFinal preprocessed dataset saved as: {FINAL_FILE}"
 )
-
-print("\n============================================================")
-print("LABSHEET 02 - ALL 35 PROGRAMS COMPLETED SUCCESSFULLY")
-print("============================================================")
